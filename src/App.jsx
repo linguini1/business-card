@@ -1,4 +1,5 @@
 // Imports
+import React from "react"
 import Heading from "./components/Heading"
 import About from "./components/About"
 import Contact from "./components/Contact"

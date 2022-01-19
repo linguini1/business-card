@@ -1,0 +1,62 @@
+.about-container {
+  background-color: #e9efec;
+  color: #555568;
+  padding: 2em;
+}
+
+.about-container h3 {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.about-container p {
+  line-height: 1.5em;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+@media (min-height: 750px) {
+  .about-container h3 {
+    font-size: 26px;
+  }
+  .about-container p {
+    font-size: 19px;
+  }
+}
+
+@media (min-height: 912px) {
+  .about-container h3 {
+    font-size: 28px;
+  }
+  .about-container p {
+    font-size: 24px;
+  }
+}
+
+@media (min-height: 1000px) {
+  .about-container h3 {
+    font-size: 30px;
+  }
+  .about-container p {
+    font-size: 26px;
+  }
+}
+
+@media (min-height: 1200px) {
+  .about-container h3 {
+    font-size: 38px;
+  }
+  .about-container p {
+    font-size: 32px;
+  }
+}
+
+@media (min-height: 1400px) {
+  .about-container h3 {
+    font-size: 48px;
+  }
+  .about-container p {
+    font-size: 36px;
+  }
+}
+/*# sourceMappingURL=About.css.map */

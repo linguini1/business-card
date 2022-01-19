@@ -1,0 +1,102 @@
+// Colours
+$primary: #211e20;
+$secondary: #555568;
+$tertiary: #a0a08b;
+$quaternary: #e9efec;
+
+.about-container {
+    background-color: $quaternary;
+    color: $secondary;
+    padding: 2em;
+
+    h3 {
+        font-weight: 600;
+        font-size: larger;
+    }
+
+    p {
+        line-height: 1.5em;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+
+}
+
+// First bp
+@media (min-height: 750px) {
+
+    .about-container {
+        
+        h3 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 19px;
+        }
+    }
+
+}
+
+// Bridging transition
+@media (min-height: 912px) {
+
+    .about-container {
+        
+        h3 {
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+    }
+
+}
+
+
+// Second bp
+@media (min-height: 1000px) {
+
+    .about-container {
+        
+        h3 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 26px;
+        }
+    }
+
+}
+
+// Third bp
+@media (min-height: 1200px) {
+
+    .about-container {
+        
+        h3 {
+            font-size: 38px;
+        }
+
+        p {
+            font-size: 32px;
+        }
+    }
+}
+
+// Fourth bp
+@media (min-height: 1400px) {
+
+    .about-container {
+        
+        h3 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 36px;
+        }
+    }
+}

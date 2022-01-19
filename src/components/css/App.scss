@@ -1,0 +1,23 @@
+// Colours
+$primary: #211e20;
+$secondary: #555568;
+$tertiary: #a0a08b;
+$quaternary: #e9efec;
+
+.card {
+    width: 47.5vh;
+    height: 95vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: auto;
+    background-color: $quaternary;
+    border-radius: 2em;
+    position: relative;
+
+    // Remove scrollbars
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

@@ -1,0 +1,117 @@
+// Colours
+$primary: #211e20;
+$secondary: #555568;
+$tertiary: #a0a08b;
+$quaternary: #e9efec;
+
+// Resets
+h1, h3 {
+    margin: 0;
+}
+
+// Styling
+.info-container {
+    background-color: $quaternary;
+
+    h3 {
+        font-weight: 200;
+        margin-bottom: 3%;
+    }
+}
+
+.info-wrapper {
+    background-color: $tertiary;
+    color: $quaternary;
+    padding: 2em;
+    clip-path: polygon(0 0, 100% 0%, 100% 50%, 0% 100%);
+    padding-bottom: 30%;
+}
+
+.title {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 15%;
+
+    h1 {
+        margin-right: 10px;
+    }
+
+}
+
+.image-wrapper {
+    width: 0;
+    height: 0;
+    position: relative;
+}
+
+.headshot {
+    width: 20vh;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+}
+
+// First bp
+@media (min-height: 790px) {
+
+    .info-wrapper {
+        
+        h3 {
+            font-size: 26px;
+        }
+
+        h1 {
+            font-size: 39px;
+        }
+    }
+
+}
+
+// Second bp
+@media (min-height: 1000px) {
+
+    .info-wrapper {
+        
+        h3 {
+            font-size: 30px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-right: 20px;
+        }
+    }
+
+}
+
+// Third bp
+@media (min-height: 1200px) {
+
+    .info-wrapper {
+        
+        h3 {
+            font-size: 36px;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin-right: 25px;
+        }
+    }
+
+}
+
+// Fourth bp
+@media (min-height: 1400px) {
+
+    .info-wrapper {
+        
+        h3 {
+            font-size: 48px;
+        }
+
+        h1 {
+            font-size: 70px;
+            margin-right: 25px;
+        }
+    }
+}

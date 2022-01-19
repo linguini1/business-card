@@ -1,0 +1,17 @@
+.card {
+  width: 47.5vh;
+  height: 95vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: auto;
+  background-color: #e9efec;
+  border-radius: 2em;
+  position: relative;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=App.css.map */

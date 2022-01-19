@@ -1,0 +1,46 @@
+// Colours
+$primary: #211e20;
+$secondary: #555568;
+$tertiary: #a0a08b;
+$quaternary: #e9efec;
+
+// General
+html {
+    font-family: "Lato";
+    background-color: lightgray;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    
+    &:hover, &:visited, &:active, &:link{
+        text-decoration: none;
+        color: inherit;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+.app {
+    padding-top: 2.5vh;
+}
